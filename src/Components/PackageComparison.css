@@ -1,0 +1,158 @@
+.comparison-div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  
+  .comparison-heading{
+    padding: 5px;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 50px;
+    background-color: white;
+  }
+  
+  .comparison-table{
+    width: 98%;
+    height: 600px;
+    border-collapse: collapse;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+
+  .comparison-table .comparison-recommendation {
+    border-width: 2px;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  .comparison-table tbody tr td:nth-child(1) {
+    background-color: #FAFAFA;
+    padding: 10px;
+    text-align: left;
+  }
+
+  
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+
+  }
+  .comparison-table td {
+    word-wrap: break-word;
+    max-width: 300px;
+  }
+  .comparison-table thead {
+    height: 80px;
+  }
+  .comparison-table thead th {
+    text-align: left;
+    background-color: #FAFAFA;
+    border-right: 1px solid #afa8a8;
+    
+  }
+
+  .comparison-table thead th:last-child {
+    border-right: none;
+  }
+
+  .comparison-table a{
+    color: blue;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+
+  .licence-class{
+   
+   display: inline-block; 
+   padding: 5px 10px;
+   border: 1px solid #faac04;
+   border-radius: 4px; 
+   background-color: #f0dda9; 
+   cursor: pointer; 
+   color: orange;
+   
+  }
+  
+  /* Recommendation Section Styles */
+ .recommendation {     
+    padding: 5px;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 50px;
+    background-color: white;
+  }
+  
+ .package-name{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+ }
+
+ .recommendation-button{
+    margin-left: 20px;
+    height: 20px;
+    width: 110px;
+ }
+  
+  .comparison-recommendation {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+  } 
+  
+  .comparison-recommendation th,
+  .comparison-recommendation td {
+    padding: 5px; 
+    border: 1px solid #ddd;
+  }
+
+  .recommendation-info{
+    width: 60%;
+  }
+
+  .button2{
+    margin-left: 20px;
+  }
+
+  .recommendation2div{
+    display: flex;
+    margin-left: 100px;
+  }
+
+  .recommendation2div div {
+    margin: 10px;
+  }
+
+  .recommendation-button{
+  display: inline-block; 
+  padding: 5px 10px;
+  border: 1px solid #b4f3f3;
+  border-radius: 4px; 
+  background-color: #b4f3f3; 
+  cursor: pointer; 
+  color: #30a9ce;
+  font-weight: bold; 
+  }
+
+  .repositorydocumentation{
+    display: flex;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  .repositorydocumentation a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .recommendation2div .lightgreytext{
+    color: gray;
+  }
+  

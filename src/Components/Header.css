@@ -1,0 +1,10 @@
+.header h2, .header p {
+    display: inline;
+    margin: 0; 
+    padding: 0 5px; 
+  }
+
+.header-div{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
